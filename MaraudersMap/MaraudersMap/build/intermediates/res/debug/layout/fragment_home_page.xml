@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="parkingaid.lpg.com.parkingadd.HomePageFragment">
+
+
+    <Spinner
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/schoolSpinner"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="95dp"
+        android:text="Parking Time"
+        android:id="@+id/noOfLecturers"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_gravity="center"
+        android:background="@drawable/timeborder"
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Select School:"
+        android:id="@+id/textView2"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/timeborder"
+        android:padding="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+</RelativeLayout>
+<!-- From: file:/Users/alexlogan/Downloads/MarudersMapFinalFinal/MaraudersMap/MaraudersMap/src/main/res/layout/fragment_home_page.xml -->

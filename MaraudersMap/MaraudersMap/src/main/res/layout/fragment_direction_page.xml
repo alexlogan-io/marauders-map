@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="parkingaid.lpg.com.parkingadd.DirectionPageFragment"
+    android:background="#FFFFFF">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Heading: 0.0"
+        android:background="@drawable/timeborder"
+        android:padding="5dp"/>
+
+    <ImageView
+        android:id="@+id/imageviewcompass"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/arrowimage"
+        android:layout_below="@+id/tvHeading"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Lecturer: "
+        android:id="@+id/textView"
+        android:layout_below="@+id/imageviewcompass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/timeborder"
+        android:padding="5dp"/>
+</RelativeLayout>
+
+</FrameLayout>
